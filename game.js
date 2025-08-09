@@ -7,10 +7,10 @@ while (!adivinado) {
     let intento = parseInt(prompt("Adivina el número entre 1 y 100:"));
 
     if (intento === numeroSecreto) {
-        alert("¡Correcto! Adivinaste el número.");
+        alert("¡Correcto! Adivinaste muy calidoso mi rey.");
         adivinado = true;
     } else if (Math.abs(intento - numeroSecreto) <= 10) {
-        alert("Caliente");
+        alert("casi lo tienes");
     } else {
         alert("Frío");
     }
