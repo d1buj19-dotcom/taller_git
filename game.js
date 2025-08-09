@@ -4,7 +4,7 @@ let numeroSecreto = Math.floor(Math.random() * 100) + 1;
 let adivinado = false;
 
 while (!adivinado) {
-    let intento = parseInt(prompt("Adivina el número entre 1 y 100:"));
+    let intento = parseInt(prompt("Mi parcerito adivina un numero del 1 al 100:"));
 
     if (intento === numeroSecreto) {
         alert("¡Correcto! Adivinaste muy calidoso mi rey.");
