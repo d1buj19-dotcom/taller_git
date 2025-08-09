@@ -12,6 +12,6 @@ while (!adivinado) {
     } else if (Math.abs(intento - numeroSecreto) <= 10) {
         alert("casi lo tienes");
     } else {
-        alert("Frío");
+        alert("ice frio hielo");
     }
 }
