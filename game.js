@@ -10,7 +10,7 @@ while (!adivinado) {
         alert("¡Correcto! Adivinaste muy calidoso mi rey.");
         adivinado = true;
     } else if (Math.abs(intento - numeroSecreto) <= 10) {
-        alert("casi lo tienes");
+        alert("muy hot");
     } else {
         alert("ice frio hielo");
     }
